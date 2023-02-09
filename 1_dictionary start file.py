@@ -5,7 +5,6 @@ phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
              'Joanne':'555−3333'}
 
-""""
 
 print()
 print('*****  start section 1 - print dictionary ********')
@@ -23,8 +22,6 @@ print()
 print('*****  end section 1 ********')
 print()
 
-
-"""
 
 
 print()
@@ -48,9 +45,6 @@ print()
 
 
 
-""""""
-
-
 
 print()
 print('*****  start section 3 - edit/append dictionary ********')
@@ -70,9 +64,6 @@ print('*****  end section 3 ********')
 print()
 
 
-""""""
-
-
 
 print()
 print('*****  start section 4 - delete/remove from dictionary ********')
@@ -88,10 +79,6 @@ print(phonebook)
 print()
 print('*****  end section 4 ********')
 print()
-
-
-
-""""""
 
 
 print()
@@ -116,8 +103,6 @@ print('*****  end section 5 ********')
 print()
 
 
-""""""
-
 
 print()
 print('*****  start section 6 - using get and clear ********')
@@ -136,7 +121,6 @@ print()
 print('*****  end section 6 ********')
 print()
 
-""""""
 
 print()
 print('*****  start section 7 - using pop method ********')
@@ -153,7 +137,6 @@ print()
 print('*****  end section 7 ********')
 print()
 
-""""""
 
 print()
 print('*****  start section 8 - using popitem ********')
@@ -171,7 +154,6 @@ print()
 print('*****  end section 8 ********')
 print()
 
-""""""
 
 print()
 print('*****  start section 9 - using random and converting to list ********')
