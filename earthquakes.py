@@ -42,14 +42,22 @@ earthquakes = json.load(infile)
 
 print(len(earthquakes["features"]))
 
-#2 & 3
+#2
+
+eq_dict = dict()
+print(eq_dict)
+
+print(len(earthquakes))
+print(type(earthquakes))
+
+#3
 
 for features in earthquakes["features"]:
    if features["properties"]["mag"] > 6:
-      print(f"Location: {features["properties]["place"]}")
-      print(f"Magnitude: {features["properties]["mag"]}")
-      print(f"Longitude: {features["geometry]["coordinates"][0]}")
-      print(f"Latitude: {features["geometry]["coordinates"][1]}")
+      print(f"Location: {features['properties']['place']}")
+      print(f"Magnitude: {features['properties']['mag']}")
+      print(f"Longitude: {features['geometry']['coordinates'][0]}")
+      print(f"Latitude: {features['geometry']['coordinates'][1]}")
       print()
 
 
